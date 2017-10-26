@@ -32,14 +32,17 @@ Making Our Filters (We will just replace the files currently existing and I will
 ## Demo 2
 
 * Keep zuul running
-* `curl -v localhost:8080/B -H 'X-BAD_HEADER: header'`
+* `curl -v localhost:8080/B -H 'X-BAD-HEADER: header'`
 * Add the HeaderBlacklist.groovy file to pre filters
-* `curl -v localhost:8080/B -H 'X-BAD_HEADER: header'`
+* `curl -v localhost:8080/B -H 'X-BAD-HEADER: header'`
 * Stop Zuul
 
 ## Demo 3
 * update the routeConfig in resources to match routeConfig2.json
 * Add DynamicRouting pre filter
+* `cd basic-service-aV2`
+* `npm install`
+* `npm start`
 * start zuul
 * Browse to http://localhost:8080/A
 * Browse to http://localhost:8080/AV2
@@ -52,6 +55,9 @@ Making Our Filters (We will just replace the files currently existing and I will
 ## Demo 4
 * update the routeConfig in resources to match routeConfig3.json
 * Add CanaryRelease pre filter
+* `cd basic-service-bV2`
+* `npm install`
+* `npm start`
 * Start Zuul
 * `curl -v localhost:8080/B -H 'X-LOCATION: West'`
 * `curl -v localhost:8080/B -H 'X-LOCATION: East'`
