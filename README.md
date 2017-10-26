@@ -4,7 +4,7 @@
 * Clone this repository
 * install npm https://nodejs.org/en/download/package-manager/
 * install sdkman http://sdkman.io/install.html
-* https://medium.com/@czerwinb/how-to-install-a-specific-gradle-version-on-your-mac-beab35051ee8
+* install a specific gradle version https://medium.com/@czerwinb/how-to-install-a-specific-gradle-version-on-your-mac-beab35051ee8
 * We want version 3.5.1
 
 ## Demo 1
