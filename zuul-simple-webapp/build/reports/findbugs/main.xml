@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1508949535149" analysisTimestamp="1508949535319" release="">
+  <Project projectName="">
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/post/SendResponseFilter$_addResponseHeaders_closure3.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/post/SendResponseFilter$_addResponseHeaders_closure1.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/post/SendResponseFilter$_addResponseHeaders_closure2.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/post/SendResponseFilter.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$_debug_closure1.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$1.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$3.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$4.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$2.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$_setResponse_closure3.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2$_closure5.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/route/SimpleHostRoutingFilter$_setResponse_closure4.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/filters/pre/PreDecorationFilter.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/com/netflix/zuul/StartServer.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/com/netflix/zuul/StartServer$2.class</Jar>
+    <Jar>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/build/classes/main/com/netflix/zuul/StartServer$1.class</Jar>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.2.3/4bc9aa28c90db3e5aaaf37dc610c0924a75eb9a1/zuul-core-1.2.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.10/4660c69a6fb68c1507d09e3de01e56bc87ffd85d/groovy-all-2.4.10.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5/a1e6cbb3cc2c5f210dd1310ff9fcb2c09c0d1438/httpclient-4.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.9.5/79a8984096fc6591c1e3690e07d41be506356fa5/mockito-all-1.9.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.6/562424e36df3d2327e8e9301a76027fca17d54ea/slf4j-api-1.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/com.netflix.archaius/archaius-core/0.6.0/1ecb29ef5d4c0c98cae35d1038fd980688eab5f9/archaius-core-0.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/com.netflix.servo/servo-core/0.7.2/b940f73ac9ddb440b79e801c8b936228dc0cc142/servo-core-0.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.1.1/39e67061780476f207b31465baaed84a91ff659f/netflix-commons-util-0.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.11/45d70862fa016993193075a1e8e32a01dcf438e8/jackson-mapper-asl-1.9.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.11/e32303ef8bd18a5c9272780d49b81c95e05ddf43/jackson-core-asl-1.9.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/annotations/2.0.0/d8dff1d83a79f0c0609c360f02bcd2f2fc1f1369/annotations-2.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jacobbrauchler/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/14.0.1/69e12f4c6aeac392555f1ea86fab82b5e5e31ad4/guava-14.0.1.jar</AuxClasspathEntry>
+    <SrcDir>/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/src/main/java/com/netflix/zuul/StartServer.java</SrcDir>
+  </Project>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.post.SendResponseFilter$_addResponseHeaders_closure1">
+      <SourceLine classname="filters.post.SendResponseFilter$_addResponseHeaders_closure1" start="148" end="148" sourcefile="SendResponseFilter.groovy" sourcepath="filters/post/SendResponseFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.post.SendResponseFilter$_addResponseHeaders_closure2">
+      <SourceLine classname="filters.post.SendResponseFilter$_addResponseHeaders_closure2" start="155" end="156" sourcefile="SendResponseFilter.groovy" sourcepath="filters/post/SendResponseFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.post.SendResponseFilter$_addResponseHeaders_closure3">
+      <SourceLine classname="filters.post.SendResponseFilter$_addResponseHeaders_closure3" start="160" end="160" sourcefile="SendResponseFilter.groovy" sourcepath="filters/post/SendResponseFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.route.SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2">
+      <SourceLine classname="filters.route.SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2" start="329" end="334" sourcefile="SimpleHostRoutingFilter.groovy" sourcepath="filters/route/SimpleHostRoutingFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.route.SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2$_closure5">
+      <SourceLine classname="filters.route.SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2$_closure5" start="330" end="330" sourcefile="SimpleHostRoutingFilter.groovy" sourcepath="filters/route/SimpleHostRoutingFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.route.SimpleHostRoutingFilter$_debug_closure1">
+      <SourceLine classname="filters.route.SimpleHostRoutingFilter$_debug_closure1" start="191" end="191" sourcefile="SimpleHostRoutingFilter.groovy" sourcepath="filters/route/SimpleHostRoutingFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.route.SimpleHostRoutingFilter$_setResponse_closure3">
+      <SourceLine classname="filters.route.SimpleHostRoutingFilter$_setResponse_closure3" start="394" end="396" sourcefile="SimpleHostRoutingFilter.groovy" sourcepath="filters/route/SimpleHostRoutingFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="SE_NO_SERIALVERSIONID" priority="2" rank="16" abbrev="SnVI" category="BAD_PRACTICE">
+    <Class classname="filters.route.SimpleHostRoutingFilter$_setResponse_closure4">
+      <SourceLine classname="filters.route.SimpleHostRoutingFilter$_setResponse_closure4" start="406" end="413" sourcefile="SimpleHostRoutingFilter.groovy" sourcepath="filters/route/SimpleHostRoutingFilter.groovy"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 25 Oct 2017 10:38:55 -0600" total_classes="18" referenced_classes="144" total_bugs="8" total_size="617" num_packages="4" java_version="1.8.0_144" vm_version="25.144-b01" cpu_seconds="16.34" clock_seconds="3.79" peak_mbytes="703.55" alloc_mbytes="3641.00" gc_seconds="0.17" priority_2="8">
+    <PackageStats package="com.netflix.zuul" total_bugs="0" total_types="3" total_size="59">
+      <ClassStats class="com.netflix.zuul.StartServer" sourceFile="StartServer.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.netflix.zuul.StartServer$1" sourceFile="StartServer.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.netflix.zuul.StartServer$2" sourceFile="StartServer.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="filters.post" total_bugs="3" total_types="4" total_size="145" priority_2="3">
+      <ClassStats class="filters.post.SendResponseFilter" sourceFile="SendResponseFilter.groovy" interface="false" size="102" bugs="0"/>
+      <ClassStats class="filters.post.SendResponseFilter$_addResponseHeaders_closure1" sourceFile="SendResponseFilter.groovy" interface="false" size="14" bugs="1" priority_2="1"/>
+      <ClassStats class="filters.post.SendResponseFilter$_addResponseHeaders_closure2" sourceFile="SendResponseFilter.groovy" interface="false" size="15" bugs="1" priority_2="1"/>
+      <ClassStats class="filters.post.SendResponseFilter$_addResponseHeaders_closure3" sourceFile="SendResponseFilter.groovy" interface="false" size="14" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="filters.pre" total_bugs="0" total_types="1" total_size="25">
+      <ClassStats class="filters.pre.PreDecorationFilter" sourceFile="PreDecorationFilter.groovy" interface="false" size="25" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="filters.route" total_bugs="5" total_types="10" total_size="388" priority_2="5">
+      <ClassStats class="filters.route.SimpleHostRoutingFilter" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="207" bugs="0"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$1" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="24" bugs="0"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$2" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="28" bugs="0"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$3" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="27" bugs="0"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$4" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="25" bugs="0"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="20" bugs="1" priority_2="1"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$_buildZuulRequestHeaders_closure2$_closure5" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="14" bugs="1" priority_2="1"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$_debug_closure1" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="12" bugs="1" priority_2="1"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$_setResponse_closure3" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="14" bugs="1" priority_2="1"/>
+      <ClassStats class="filters.route.SimpleHostRoutingFilter$_setResponse_closure4" sourceFile="SimpleHostRoutingFilter.groovy" interface="false" size="17" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="814" invocations="144" avgMicrosecondsPerInvocation="5655" maxMicrosecondsPerInvocation="794111" standardDeviationMircosecondsPerInvocation="65934"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="293" invocations="916" avgMicrosecondsPerInvocation="320" maxMicrosecondsPerInvocation="31871" standardDeviationMircosecondsPerInvocation="1376"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="240" invocations="144" avgMicrosecondsPerInvocation="1670" maxMicrosecondsPerInvocation="121012" standardDeviationMircosecondsPerInvocation="10120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="157" invocations="144" avgMicrosecondsPerInvocation="1090" maxMicrosecondsPerInvocation="59057" standardDeviationMircosecondsPerInvocation="4978"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="116" invocations="219" avgMicrosecondsPerInvocation="529" maxMicrosecondsPerInvocation="10108" standardDeviationMircosecondsPerInvocation="1182"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="114" invocations="219" avgMicrosecondsPerInvocation="521" maxMicrosecondsPerInvocation="9411" standardDeviationMircosecondsPerInvocation="1180"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="105" invocations="116" avgMicrosecondsPerInvocation="909" maxMicrosecondsPerInvocation="13505" standardDeviationMircosecondsPerInvocation="1781"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="90" invocations="219" avgMicrosecondsPerInvocation="412" maxMicrosecondsPerInvocation="9778" standardDeviationMircosecondsPerInvocation="1058"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="75" invocations="410" avgMicrosecondsPerInvocation="184" maxMicrosecondsPerInvocation="9151" standardDeviationMircosecondsPerInvocation="551"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="73" invocations="144" avgMicrosecondsPerInvocation="510" maxMicrosecondsPerInvocation="34748" standardDeviationMircosecondsPerInvocation="2937"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="65" invocations="219" avgMicrosecondsPerInvocation="300" maxMicrosecondsPerInvocation="19541" standardDeviationMircosecondsPerInvocation="1687"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="55" invocations="219" avgMicrosecondsPerInvocation="251" maxMicrosecondsPerInvocation="36249" standardDeviationMircosecondsPerInvocation="2445"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="52" invocations="219" avgMicrosecondsPerInvocation="237" maxMicrosecondsPerInvocation="9537" standardDeviationMircosecondsPerInvocation="713"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="51" invocations="921" avgMicrosecondsPerInvocation="55" maxMicrosecondsPerInvocation="1039" standardDeviationMircosecondsPerInvocation="57"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="47" invocations="185" avgMicrosecondsPerInvocation="257" maxMicrosecondsPerInvocation="5554" standardDeviationMircosecondsPerInvocation="497"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="39" invocations="144" avgMicrosecondsPerInvocation="275" maxMicrosecondsPerInvocation="13207" standardDeviationMircosecondsPerInvocation="1194"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="38" invocations="219" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="4533" standardDeviationMircosecondsPerInvocation="403"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="37" invocations="875" avgMicrosecondsPerInvocation="42" maxMicrosecondsPerInvocation="2428" standardDeviationMircosecondsPerInvocation="110"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="35" invocations="65" avgMicrosecondsPerInvocation="540" maxMicrosecondsPerInvocation="4825" standardDeviationMircosecondsPerInvocation="841"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

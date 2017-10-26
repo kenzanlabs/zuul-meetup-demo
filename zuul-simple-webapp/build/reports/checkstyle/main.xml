@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.7">
+<file name="/Users/jacobbrauchler/zuul-meetup-demo/zuul-simple-webapp/src/main/java/com/netflix/zuul/StartServer.java">
+<error line="24" severity="warning" message="&apos;java.io.File&apos; should be separated from previous import group." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="27" severity="warning" message="Import statement is in the wrong order. Should be in the &apos;THIRD_PARTY_PACKAGE&apos; group." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="28" severity="warning" message="Import statement is in the wrong order. Should be in the &apos;THIRD_PARTY_PACKAGE&apos; group." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="57" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="60" severity="warning" message="Line is longer than 100 characters (found 101)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+</checkstyle>

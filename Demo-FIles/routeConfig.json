@@ -1,0 +1,17 @@
+[
+    {
+        "name":"microserviceA",
+        "path":"/A",
+        "host": "localhost",
+        "port": "8090",
+        "protocol": "http"
+    },
+    {
+        "name":"microserviceB",
+        "path":"/B",
+        "host": "localhost",
+        "port": "8091",
+        "protocol": "http"
+    }
+
+]
