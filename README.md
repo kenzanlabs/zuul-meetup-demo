@@ -7,7 +7,7 @@
 * install a specific gradle version https://medium.com/@czerwinb/how-to-install-a-specific-gradle-version-on-your-mac-beab35051ee8
 * We want version 3.5.1
 
-## Demo 1
+## Demo 1 - Simple Routing Filter for 2 services
 Start Zuul 
 * `cd zuul-simple-webapp`
 * `gradle jettyRun`
@@ -29,7 +29,7 @@ Making Our Filters (We will just replace the files currently existing and I will
 * Browse to http://localhost:8080/A
 * Browse to http://localhost:8080/B
 
-## Demo 2
+## Demo 2 - Dynamic Filter Polling
 
 * Keep zuul running
 * `curl -v localhost:8080/B -H 'X-BAD-HEADER: header'`
@@ -37,7 +37,7 @@ Making Our Filters (We will just replace the files currently existing and I will
 * `curl -v localhost:8080/B -H 'X-BAD-HEADER: header'`
 * Stop Zuul
 
-## Demo 3
+## Demo 3 - Dynamic Routing
 * update the routeConfig in resources to match routeConfig2.json
 * Add DynamicRouting pre filter
 * `cd basic-service-aV2`
@@ -52,7 +52,7 @@ Making Our Filters (We will just replace the files currently existing and I will
 * Browse to http://localhost:8080/A
 * Stop Zuul
 
-## Demo 4
+## Demo 4 - Canary Release
 * update the routeConfig in resources to match routeConfig3.json
 * Add CanaryRelease pre filter
 * `cd basic-service-bV2`
