@@ -1,0 +1,5 @@
+# IDEA config files
+.idea/
+*node_modules/*
+zuul-meetup-demo.iml
+.gradle/

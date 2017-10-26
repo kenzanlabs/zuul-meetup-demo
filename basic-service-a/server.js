@@ -6,4 +6,4 @@ app.get('/*', (req, res) => {
    res.send(`Server: A`);
 });
 
-app.listen(8080, () => { console.log('Server initialized'); });
+app.listen(8090, () => { console.log('Server initialized'); });
