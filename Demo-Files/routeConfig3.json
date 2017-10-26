@@ -3,7 +3,8 @@
         "name":"microserviceA",
         "path":"/A",
         "host": "localhost",
-        "port": "8090",
+        "newPath": "/AV2",
+        "port": "8092",
         "protocol": "http"
     },
     {
